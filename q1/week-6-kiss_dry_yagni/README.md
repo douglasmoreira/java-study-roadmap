@@ -1,0 +1,9 @@
+# DRY-KISS-YAGNI Principle
+
+* DRY (Don't Repeat Yourself) states that every piece of knowledge should have a single, authoritative representation in the codebase. It is not about eliminating duplicate lines — it is about eliminating duplicate decisions. KISS (Keep It Simple, Stupid) states that code should be as simple as the problem requires — not simpler, but never more complex. The test is whether a developer unfamiliar with the code can understand it quickly. YAGNI (You Aren't Gonna Need It) states that you should only build what a current, real requirement justifies — not what a hypothetical future might need.
+
+
+* In this exercise, the class NotificationServiceBefore had violations of these principles: DRY is violated when a method has the same structure to validate an eligible customer and creating a string; KISS when method uses a complicated stream; and YAGNI is violated when putting methods not used yet, notifyByWhatsApp, scheduleNotificationForLater, notifyBySmsWithFallback.
+
+
+* To fix this, Eligible validation was extracted to the Customer class, simplifying and removing repeated code, extracted the for loop repeated in 3 methods to a specific method, and extracted the order reference prefix into a dedicated buildOrderRef method. BuildOrderRef is marked static because it depends only on its parameter and has no need for instance state. The compiler enforces this, preventing future accidental coupling. SmsClient and PushClient were removed from the fields as a YAGNI decision — they are not needed by any current feature and will be wired up when a real requirement exists.
