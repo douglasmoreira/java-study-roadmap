@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5000371d-9cad-43e8-816e-c4df9b9d0a2d" name="Changes" comment="refactor: improve naming and split priority email handling&#10;&#10;- Rename methods, parameters, and variables for clarity&#10;- Extract priority email into its own method, fixing silent&#10;  duplicate email on SMS priority requests&#10;- Add consistent outcome logging to both notification methods" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;douglasmoreira&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/douglasmoreira/java-study-roadmap.git&quot;,
+    &quot;accountId&quot;: &quot;2799c59e-f3f6-41d5-8eae-b1431c48deb9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GjOxMKfScgRm7eXrOCoSyL5BRm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/douglas/IdeaProjects/week-07/src/main/java/org/example/Main.java&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5000371d-9cad-43e8-816e-c4df9b9d0a2d" name="Changes" comment="" />
+      <created>1784481759093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784481759093</updated>
+    </task>
+    <task id="LOCAL-00001" summary="refactor: improve naming and split priority email handling&#10;&#10;- Rename methods, parameters, and variables for clarity&#10;- Extract priority email into its own method, fixing silent&#10;  duplicate email on SMS priority requests&#10;- Add consistent outcome logging to both notification methods">
+      <option name="closed" value="true" />
+      <created>1785880693693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785880693693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor: improve naming and split priority email handling&#10;&#10;- Rename methods, parameters, and variables for clarity&#10;- Extract priority email into its own method, fixing silent&#10;  duplicate email on SMS priority requests&#10;- Add consistent outcome logging to both notification methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: improve naming and split priority email handling&#10;&#10;- Rename methods, parameters, and variables for clarity&#10;- Extract priority email into its own method, fixing silent&#10;  duplicate email on SMS priority requests&#10;- Add consistent outcome logging to both notification methods" />
+  </component>
+</project>
